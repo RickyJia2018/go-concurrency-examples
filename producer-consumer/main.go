@@ -125,4 +125,7 @@ func main() {
 		}
 	}
 	// print out the ending message
+	color.Cyan("--------------------------------")
+	color.Cyan("Done for the day.")
+	color.Cyan("Pizzas made: %d, but failed to make %d, with %d attempts in total", pizzasMade, pizzasFailed, total)
 }
